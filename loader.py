@@ -1,8 +1,9 @@
 from aiogram import Bot, Dispatcher, types
 from aiogram.contrib.fsm_storage.memory import MemoryStorage
-from utils.db.storage import DatabaseManager
 
+from utils.db.storage import DatabaseManager
 from data import config
+
 
 # На основе класса-конструктора Bot создаем объект бота и передаем параметрs – токен и режим форматирования сообщений.
 # parse_mode означает, что сообщение будет отправлено с HTML-разметкой.
