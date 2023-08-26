@@ -23,4 +23,8 @@ handlers - обработчики кнопок меню
         menu.py
 
 states - запуск обработчиков в зависимости от их состояний
-    product_state - 
+    product_state 
+
+keyboards - функции отвечающие за формирование клавиатуры
+    default
+        markups.py
