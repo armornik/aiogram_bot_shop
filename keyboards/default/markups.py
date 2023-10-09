@@ -29,3 +29,11 @@ def confirm_markup():
     markup.add(back_message)
 
     return markup
+
+
+def submit_markup():
+    """Функция для формирования разметки клавиатуры для подтверждения вопроса пользователя"""
+    markup = ReplyKeyboardMarkup(resize_keyboard=True, selective=True)
+    markup.row(cancel_message, all_right_message)
+
+    return markup
